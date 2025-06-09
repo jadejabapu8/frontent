@@ -1,0 +1,13 @@
+what is xamp ?
+
+      stack with apache,my sql,php and peri.
+
+
+what is wamp ?
+
+      windows specific stack with apache,my sql and php.
+
+
+what is lamp ?
+
+      linux specific stack with a paxhe,my sql, and php.

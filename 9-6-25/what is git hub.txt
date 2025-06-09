@@ -1,0 +1,7 @@
+what is git hub ?
+
+       there isn't a standard git hub.txt file but it could be custom text file related to a 
+       git hub project containing hotes in strctions ,  or a list of repastliories it's not a specific git hub feature.
+
+
+       

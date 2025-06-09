@@ -1,0 +1,14 @@
+what is html ?
+
+   html stands for hypprtext markup language
+   html first time released in 1986 by tim berner
+   html is used for makea website
+   html is case insenstive language
+
+
+   exm : <html> </html>
+         <HTML> </HTML>
+         < HTML> </HTML>
+
+
+         html is not any language it is a markup language

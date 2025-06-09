@@ -1,0 +1,9 @@
+what is URL ?
+
+
+URL stands for universal resovrce locator.
+
+types of URL : 
+               absolute URL
+               relative URL
+               hypprtext URL

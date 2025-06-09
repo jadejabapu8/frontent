@@ -1,0 +1,9 @@
+what is website hosting ?
+   
+
+     a custom text file containing hosting info or configurations .
+
+     a configurations file used by a website.
+
+     a misnomer for robots.text
+     c used for seo / crawling perposes.

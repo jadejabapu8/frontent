@@ -1,0 +1,16 @@
+what is website ?
+
+website is a colaaction of website i.e called website
+exm : flilpcart,amazon
+
+type of website :
+                 1 static website
+                 2 dynamic website
+
+         1. static website :
+                            a website is called static website where we can not changed or update after create website.
+
+
+
+         2. dynamic website :
+                             a website is called dynamic website where we can changed after create website.                           

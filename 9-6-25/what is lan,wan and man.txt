@@ -1,0 +1,13 @@
+what is lan ?
+
+     local area network 
+
+
+what is wan ?
+      
+      wide area network 
+
+
+what is man ?
+      
+      metropolitan area network

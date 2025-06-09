@@ -1,0 +1,10 @@
+what is markup language ?
+
+    markup language is always enguaged with web browser or load on web browser that's why we called html is not language
+    it is markup language
+
+
+
+html structure 
+
+       html structure or html booler or skelton of html 

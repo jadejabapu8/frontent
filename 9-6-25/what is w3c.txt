@@ -1,0 +1,10 @@
+what is w3c ?
+
+    w3c stands for world wide web consortium.
+
+    w3c is an organazation.
+
+    w3c is decided which tag is depricated or not in html.
+
+    exm : <center>
+          <blink>

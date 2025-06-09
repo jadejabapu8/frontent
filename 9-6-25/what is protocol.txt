@@ -1,0 +1,7 @@
+what is protocol ?
+   
+
+   protocol is set drules in website types of protocol.
+
+   html(secured)
+   html (not secured)
