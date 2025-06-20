@@ -1,0 +1,27 @@
+htnl provides two types of html elements:-
+1) block element
+2) non block element
+
+
+1) block : which is covered 100% of width i.e called block element.
+
+    exm:- <h1> </h1>
+          <div> </div>
+          <p> </p>
+          <footer> </footer>
+          <header> </header>
+          <form> </form>
+          <table> </table>
+
+
+2) non block element (illine elements): which is non-covered 100% of width i.e called block element.
+
+
+
+    exm:- <b>
+          <input>
+          <img>
+          <i> </i>
+          <a> </a>
+          <em> </em>
+          <code> </code>
