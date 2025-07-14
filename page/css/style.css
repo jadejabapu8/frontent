@@ -1,0 +1,61 @@
+body
+{
+    padding: 0;
+    margin: 0;
+}
+
+nav
+{
+    width: 50%;
+    height: auto;
+}
+
+nav ul li 
+{
+    display: inline-block;
+    padding: 8px 30px;
+}
+
+nav a
+{
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+    font-size: 25px;
+    text-transform: uppercase;
+
+}
+ button
+{
+    text-transform: uppercase;
+   
+    margin-top: 0;
+}
+
+img
+{
+    width: 35%;
+    height: auto;
+    transform: translate(-50px , -100px);
+    padding-left: 71%;
+    animation:  slideRight 3s infinite alternate;
+}
+
+    
+ h1
+{
+    transform: translate(100px , -700px);
+    
+}
+
+p
+
+{
+    transform: translate(100px , -600px);
+}
+
+#jd
+{
+   width: 30%;
+   height: auto;
+}
