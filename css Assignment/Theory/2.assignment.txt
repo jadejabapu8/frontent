@@ -1,0 +1,44 @@
+What are CSS Selectors?
+            :-CSS selectors are patterns used to select and style HTML elements.
+            :-They tell the browser which elements to apply the styles to.
+
+1. Element Selector :- 
+                         Targets all elements of a specific type.
+
+2. Class Selector :- 
+                         Targets elements with a specific class attribute.
+
+                         Starts with a dot (.).
+
+3. ID Selector :- 
+                         Targets an element with a specific id.
+
+                         Starts with a hash (#).
+
+4. Universal Selector :- 
+                         Targets all elements on the page.
+
+                        Symbol: *
+
+5. Group Selector :- 
+                         Targets multiple selectors at once.
+
+                         Uses commas to separate selectors.
+
+6. Descendant Selector :- 
+                         Targets elements inside another element.
+
+7. Child Selector :- 
+                         Targets direct children only.
+
+                         Uses > symbol.
+
+8. Attribute Selector :- 
+                         Targets elements with a specific attribute.
+
+
+9. Pseudo-class Selector :- 
+                         Targets elements based on their state (like hover or first-child).
+
+10. Pseudo-element Selector :- 
+                         Targets parts of an element, like first line or first letter.

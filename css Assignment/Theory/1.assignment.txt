@@ -1,0 +1,54 @@
+1. Inline CSS :- 
+                  Definition: CSS is written directly inside the HTML element using the style attribute.
+
+ Advantages:
+
+            Quick to apply.
+
+            Overrides other CSS types (highest priority).
+
+Disadvantages:
+
+                Hard to maintain for large projects.
+
+                Violates separation of content and style.
+
+               Code becomes messy with many styles.
+
+
+
+2. Internal CSS :-
+                 Definition: CSS is placed within a <style> tag inside the <head> section of an HTML document.
+
+                 Used for: Styling a single HTML page.
+
+Advantages:
+
+                   Keeps CSS separate from content (better than inline).
+
+                   Useful for small projects or one-page websites.
+ Disadvantages:
+
+                   Styles are limited to that one HTML file.
+
+                   Still less scalable than external CSS.                   
+
+
+3. External CSS
+                Definition: CSS is written in a separate .css file and linked to the HTML document using the <link> tag.
+
+                 Used for: Styling multiple HTML pages consistently. 
+
+Advantages:
+
+                 Reusable across many pages.
+
+                 Easy to maintain and update.
+
+                 Keeps content and design separate (best practice).
+
+Disadvantages:
+
+                 Needs an extra HTTP request to load the CSS file.
+
+                 Changes may not reflect if the file is cached.
