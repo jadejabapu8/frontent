@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Layout with Media Queries</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+      
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    padding: 10px;
+}
+
+
+.header, .content, .footer {
+    background-color: #0891ec;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.section1 { background-color: #2e574f; }
+.section2 { background-color: #a70be5; }
+.section3 { background-color: #6b4f36; }
+.footer   { background-color: #0d76df; }
+
+
+@media (min-width: 768px) {
+    .container {
+        grid-template-columns: 1fr 1fr; 
+    }
+
+    .header, .footer {
+        grid-column: span 2;
+    }
+
+    
+    .header, .content, .footer {
+        font-size: 18px;
+        padding: 30px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .header, .content, .footer {
+        font-size: 20px;
+        padding: 40px;
+    }
+}
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="header">Web designing</header>
+        
+        <section class="content section1"> HTML </section>
+        <section class="content section2"> CSS </section>
+        <section class="content section3"> JAVASCRIPT</section>
+        
+        <footer class="footer">BOOSTREAP</footer>
+    </div>
+</body>
+</html>

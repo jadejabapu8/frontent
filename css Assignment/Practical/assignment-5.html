@@ -1,14 +1,64 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Page Title</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-    <script src='main.js'></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox Responsive Layout</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;    
+    min-height: 100vh;
+}
+
+.header, .main, .footer {
+    background-color: #3498db;
+    color: white;
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+    border: 1px solid #2980b9;
+}
+
+.main {
+    background-color: #2ecc71;
+}
+
+
+@media (min-width: 768px) {
+    .container {
+        flex-direction: row; 
+        justify-content: center; 
+    }
+
+    .header, .main, .footer {
+        flex: 1; 
+        max-width: 300px;
+    }
+}
+
+    </style>
 </head>
 <body>
-    
+    <div class="container">
+        <header class="header">Jadeja_</header>
+        <main class="main">Bapu</main>
+        <footer class="footer">_8</footer>
+    </div>
 </body>
 </html>
