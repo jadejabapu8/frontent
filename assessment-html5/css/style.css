@@ -1,0 +1,468 @@
+body
+{
+    width: 100%;
+    height: auto;
+    overflow-x: hidden;
+    background-color: white;
+}
+#p1
+{
+    width: 100%;
+    height: auto;
+    background: url('/image/back4.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.p2
+{
+    width: 100%;
+    height: auto;
+}
+.p2 nav 
+{
+    width: 100%;
+    height: auto;
+    
+}
+
+.p2 nav ul
+{
+    margin-top: 0;
+    padding-left: 25%;
+    background-color: rgba(255, 255, 255, 0.488);
+}
+
+.p2 nav ul li
+{
+    display: inline-block;
+    padding: 22px;  
+    margin-top: 2%;
+}
+
+.p2 nav a
+{
+    color: black;
+    font-size: 30px;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.p3 h1
+{
+    font-size: 20px;
+    color: white;
+    padding-left: 10%;
+    margin-top: 10%;
+}
+.p3 h3
+{
+    font-size: 45px;
+    color: white;
+    padding-left: 10%;
+    margin-top: 0%;
+}
+.p3 p
+{
+    color: white;
+    font-size: 20px;
+    padding-left: 10%;
+}
+.z5
+{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+}
+.z6
+{
+    width: 30%;
+    height: auto;
+    background-color: red;
+    margin-left: 2%;
+    margin-top: 5%;
+}
+.z6 h1
+{
+    color: white;
+    text-align: center;
+}
+.z6 h2
+{
+    font-size: 15px;
+}
+.z6 span
+{
+    margin-left: 45%;
+    color: aliceblue;
+    font-size: 35px;
+    margin-top: 3%;
+}
+#p4 
+{
+    width: 100%;
+    height: auto;
+}
+.p5
+{
+    width: 100%;
+    height: auto;
+    margin-top: 10%;
+}
+.p5 h1
+{
+    font-size: 55px;
+    text-align: center;
+}
+#p6
+{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+}
+.p7
+{
+    width: 22%;
+    height: 50vh;
+    background-color: white;
+}
+.p7 h1
+{
+    width: 100%;
+    height: auto;
+    color: black;
+    font-size: 30px;
+}
+.p7 ul
+{
+    padding: 20px;
+}
+.p7 li
+{
+    font-size: 25px;
+    color: black;
+}
+.p8
+{
+    width: 40%;
+    height: auto;
+}
+.p8 img
+{
+    width: 50%;
+    height: auto;
+    display: block;
+}
+.p9
+{
+    width: 40%;
+    height: auto;
+}
+.p9 img
+{
+    width: 50%;
+    height: auto;
+    display: block;
+}
+#p10
+{
+    width: 100%;
+    height: auto;
+    background: url('/image/back3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+.p11
+{
+    width: 40%;
+    height: auto;
+    margin-top: 2%;
+    padding-left: 20px;
+}
+.p11 h1
+{
+    font-size: 25px;
+    color: white;
+    background-color: rgba(161, 161, 161, 0.445);
+    display: block;
+}
+.p12 
+{
+    width: 50%;
+    height: auto;
+    padding: 20px;
+    margin-top: 25%;
+}
+.p12 h1
+{
+    font-size: 25px;
+    color: white;
+    background-color: rgba(161, 161, 161, 0.445);
+}
+.p11 button
+{
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    
+}
+#p13
+{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+}
+.p14
+{
+    width: 25%;
+    height: auto;
+    margin-top: 5%;
+}
+.p14 img
+{
+    width: 100%;
+    height: auto;
+}
+#p16 
+{
+    width: 100%;
+    height: auto;
+    background: url('/image/back2.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.p17
+{
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+}
+ h2
+{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 10%;
+    padding: 20px;
+    font-size: 40px;
+}
+
+.p17
+{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.p18
+{
+    width: 30%;
+    height: auto;
+    margin-left: 3%;
+}
+
+.p19
+{
+    width: 30%;
+    height: auto;
+    margin-top: 5% ;
+}
+.p20 
+{
+     width: 30%;
+    height: auto;
+    margin-top: 1% ;
+}
+.z1 
+{
+    width: 90%;
+    height: auto;
+    background-color: rgba(240, 248, 255, 0.463);
+    border-radius: 20px;
+}
+.z1 h1 
+{
+    text-align: center;
+    color: rgb(255, 255, 0);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 35px;
+}
+
+.z1 h2 
+{
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    text-align: center;
+}
+#mn
+{
+    width: 100%;
+    height: auto;
+    background-color: black;
+}
+#p21
+{
+    width: 100%;
+    height: auto;
+    display: flex;
+    /* flex-direction: row; */
+}
+.p22 
+{
+    width: 50%;
+    height: auto;
+    padding: 25px;
+}
+.p22 h1
+{
+    color: black;
+    font-size: 35px;
+}
+.p22 input
+{
+    font-size: 15px;
+    padding: 10px;
+}
+.p25
+{
+    width: 40%;
+    height: auto;
+    padding: 18px;
+    background-color: white;
+    margin-top: 2%;
+    border-radius: 5%;
+    margin-left: 2%;
+}
+.p23
+{
+    width: 40%;
+    height: auto;
+    padding: 18px;
+    background-color: red;
+    margin-top: 2%;
+    border-radius: 8%;
+    margin-left: 10%;
+}
+.p24
+{
+    width: 100%;
+    height: auto;
+}
+.p24 h1
+{
+    color: white;
+    font-size: 25px;
+}
+
+
+
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .p2 nav ul {
+        padding-left: 0;
+        margin: 0;
+        text-align: center;
+        background-color: rgba(255, 255, 255, 0.9);
+    }
+    .p2 nav ul li {
+        display: block;
+        padding: 12px;
+        margin: 0;
+    }
+    .p2 nav a {
+        font-size: 18px;
+    }
+
+   
+    .p3 h1 {
+        font-size: 16px;
+        padding-left: 5%;
+        margin-top: 20%;
+    }
+    .p3 h3 {
+        font-size: 26px;
+        padding-left: 5%;
+    }
+    .p3 p {
+        font-size: 14px;
+        padding-left: 5%;
+    }
+
+
+    .z5,
+    #p6,
+    #p10,
+    #p13,
+    .p17,
+    #p21 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .z6,
+    .p7,
+    .p8,
+    .p9,
+    .p11,
+    .p12,
+    .p14,
+    .p18,
+    .p19,
+    .p20,
+    .p22,
+    .p23,
+    .p25 {
+        width: 90% !important;
+        margin: 10px auto;
+        height: auto !important;
+    }
+
+
+    img,
+    .p8 img,
+    .p9 img,
+    .p14 img {
+        width: 100% !important;
+        height: auto !important;
+    }
+
+    h1 {
+        font-size: 20px !important;
+    }
+    h2 {
+        font-size: 18px !important;
+    }
+
+
+    .p22 input {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .p24 h1 {
+        font-size: 18px;
+    }
+
+    #p1,
+    #p10,
+    #p16 {
+        height: auto;
+    }
+
+      
+}
