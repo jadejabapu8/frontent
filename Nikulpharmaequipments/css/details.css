@@ -1,0 +1,406 @@
+body
+{
+    width: 100%;
+    height: auto;
+}
+#n1
+{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+}
+.n2
+{
+    width: 30%;
+    height: auto;
+}
+.n2 img
+{
+    width: 50%;
+    height: auto;
+}
+.n3
+{
+    width: 70%;
+    height: auto;
+}
+.n3 nav
+{
+    width: 100%;
+    height: auto;
+    margin-top: 0%;
+}
+.n3 nav ul
+{
+    margin-top: 2%;
+}
+
+.n3 nav ul li
+{
+    display: inline-block;
+    padding: 22px; 
+}
+
+.n3 nav a
+{
+    color: black;
+    font-size: 30px;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.n3 nav a:hover
+{
+    color: white;
+    background-color: blue;
+    font-size: 30px;
+    border-radius: 20px;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.n3 span
+{
+    padding: 5px;
+    font-size: 25px;
+}
+.n3 span:hover
+{
+    color: blue;
+    background-color: white;
+}
+#d1
+{
+    width: 100%;
+    height: auto;
+    background: url('/image/de1.avif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+}
+#d2
+{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+}
+.z1
+{
+    width: 40%;
+    height: auto;
+}
+.z1 img
+{
+    width: 100%;
+    height: auto;
+    border-radius: 30px;
+    margin-left: 10%;
+    margin-top: 8%;
+}
+.z2
+{
+    width: 50%;
+    height: auto;
+}
+.z2 h3
+{
+    font-size: 20px;
+    margin-top: 25%;
+    margin-left: 15%;
+}
+.z2 h1
+{
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 15%;
+}
+.z2 button
+{
+    margin-left: 15%;
+    padding: 10px;
+    margin-top: 5%;
+    border-radius: 20px;
+    font-size: 25px;
+}
+.z2 button:hover
+{
+    background-color: blue;
+    color: white
+}
+.z2 h4
+{
+    margin-left: 15%;
+}
+.z2 h4 span
+{
+    padding: 5px;
+    color: blue;
+}
+#d3
+{
+    width: 100%;
+    height: auto;
+}
+.z3
+{
+    width: 100%;
+    height: auto;
+}
+.z3 h1
+{
+    margin-left: 3%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+}
+.z3 p
+{
+    text-align: justify;
+    margin-left: 3%;
+}
+#d4
+{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    margin-top: 10%;
+    margin-left: 5%;
+}
+.z4
+{
+    width: 32%;
+    height: auto;
+}
+.z4 img
+{
+    width: 100%;
+    height: auto;
+    border-radius: 25px;
+}
+.z4 button
+{
+    background-color: white;
+    margin-left: 10%;
+    padding: 5px;
+    margin-top: 8%;
+    border-radius: 20px;
+}
+.z4 button:hover
+{
+    background-color: blue;
+}
+.z4 button a:hover
+{
+    color: white;
+}
+.z4 button a
+{
+    color: black;
+    text-decoration: none;
+    list-style-type: none;
+}
+#f1
+{
+    width: 100%;
+    height: auto;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+}
+.n7
+{
+    width: 25%;
+    height: auto;
+}
+.n7 h1
+{
+    font-size: 25px;
+    color: white;
+    margin-right: 30%;
+}
+nav 
+{
+    width: 70%;
+    height: auto;
+}
+nav ul 
+{
+    margin-top: 0;
+}   
+nav ul li 
+{
+    padding: 10px;
+}
+nav a 
+{
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+}
+.n7 p
+{
+    color: white;
+    margin-left: 15%;
+}
+.n7 input
+{
+    margin-left: 15%;
+    padding: 10px;
+}
+.n7 span
+{
+    color: white;
+    font-size: 25px;
+    padding: 5px;
+    margin-left: 10%;
+}
+.n7 h2
+{
+    font-size: 25px;
+    color: white;
+    margin-left: 15%;
+}
+/* 📱 Mobile Responsive (max-width:480px) */
+@media screen and (max-width:480px) {
+
+    /* Navbar */
+    #n1 {
+        flex-direction: column;
+        text-align: center;
+    }
+    .n2, .n3 {
+        width: 100%;
+    }
+    .n2 img {
+        width: 60%;
+        margin: 10px auto;
+        display: block;
+    }
+    .n3 nav ul {
+        padding: 0;
+        margin: 10px 0;
+    }
+    .n3 nav ul li {
+        display: block;
+        padding: 12px;
+    }
+    .n3 nav a {
+        font-size: 18px;
+    }
+    .n3 span {
+        display: inline-block;
+        margin: 5px;
+        font-size: 20px;
+    }
+
+    /* Hero section */
+    #d1 {
+        height: 40vh;
+    }
+
+    /* Section d2 (image + text) */
+    #d2 {
+        flex-direction: column;
+        align-items: center;
+    }
+    .z1 {
+        width: 90%;
+        margin: auto;
+    }
+    .z1 img {
+        margin: 0;
+        margin-top: 15px;
+        border-radius: 15px;
+    }
+    .z2 {
+        width: 90%;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .z2 h1 {
+        font-size: 24px;
+        margin-left: 0;
+    }
+    .z2 h3 {
+        margin-left: 0;
+        font-size: 18px;
+        margin-top: 10px;
+    }
+    .z2 button {
+        margin: 15px auto;
+        display: block;
+        font-size: 18px;
+    }
+    .z2 h4 {
+        margin-left: 0;
+    }
+
+    /* Description */
+    .z3 h1 {
+        font-size: 22px;
+        text-align: center;
+        margin-left: 0;
+    }
+    .z3 p {
+        margin: 10px;
+        font-size: 14px;
+    }
+
+    /* Section d4 (cards) */
+    #d4 {
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+    }
+    .z4, .z5 {
+        width: 90%;
+        margin: 15px 0;
+    }
+    .z4 img, .z5 img {
+        border-radius: 15px;
+    }
+    .z4 button, .z5 button {
+        margin: 10px auto;
+        display: block;
+    }
+
+    /* Footer */
+    #f1 {
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+    }
+    .n7 {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .n7 h1 {
+        font-size: 20px;
+        margin: 10px 0;
+    }
+    nav {
+        width: 100%;
+    }
+    nav ul li {
+        padding: 5px;
+    }
+    nav a {
+        font-size: 14px;
+    }
+    .n7 input {
+        margin: 10px auto;
+        width: 80%;
+        display: block;
+    }
+    .n7 span {
+        margin: 5px;
+        font-size: 20px;
+    }
+    .n7 h2 {
+        margin-left: 0;
+        font-size: 18px;
+    }
+}
