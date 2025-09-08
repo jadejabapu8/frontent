@@ -1,0 +1,14 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+form {
+  max-width: 600px;
+  margin: auto;
+}
+
+@media (max-width: 576px) {
+  form {
+    padding: 20px;
+  }
+}
