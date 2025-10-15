@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JADDU'S FOOD FIELD</title>
+   <link rel='stylesheet' type='text/css' media='screen' href='css/style.css'>
+
+</head>
+<body>
+  <div class="login-container">
+    <h2>JADDU'S <br>FOOD FIELD</h2>
+    <form onsubmit="return handleLogin(event)">
+      <label for="phone">Phone Number</label>
+      <input type="tel" id="phone" placeholder="Enter Number">
+
+      <label for="password">Password</label>
+      <input type="password" id="password" placeholder="Enter your password" required>
+      <button type="submit">Login</button>
+    </form>
+    <div class="links"> 
+
+      <a href="#">Forgot Password?</a>
+    </div>
+  </div>
+
+    <script>
+    function handleLogin(event) {
+      event.preventDefault(); 
+
+      const phone = document.getElementById("phone").value.trim();
+      const password = document.getElementById("password").value.trim();
+
+      // 🧠 Login check
+      if (phone == "8758983396" && password == "1234") {
+        // alert("Login Successful ✅");
+        window.location.href = "page1.html"; 
+      } 
+      else {
+        alert("Invalid Phone Number or Password ❌");
+      }
+    }
+  </script>
+</body>
+</html>

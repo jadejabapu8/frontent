@@ -1,0 +1,207 @@
+   * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background-color: #fff;
+      color: #333;
+    }
+
+    /* Navbar */
+    nav {
+      background: rgba(0,0,0,0.8);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 50px;
+      color: #fff;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 1000;
+    }
+
+    nav .logo {
+      font-size: 26px;
+      font-weight: 700;
+      color: #ff9800;
+    }
+
+    nav ul {
+      display: flex;
+      list-style: none;
+      gap: 25px;
+    }
+
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 16px;
+      transition: 0.3s;
+    }
+
+    nav ul li a:hover {
+      color: #ff9800;
+    }
+
+    /* Hero Section */
+    .hero {
+      height: 100vh;
+      background: url('https://images.unsplash.com/photo-1600891964599-f61ba0e24092?auto=format&fit=crop&w=1600&q=80') no-repeat center center/cover;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      color: #fff;
+    }
+
+    .hero h1 {
+      font-size: 60px;
+      font-weight: 800;
+      margin-bottom: 15px;
+    }
+
+    .hero p {
+      font-size: 20px;
+      margin-bottom: 25px;
+    }
+
+    .hero a {
+      text-decoration: none;
+      background: #ff9800;
+      padding: 12px 30px;
+      color: #fff;
+      border-radius: 8px;
+      font-weight: 600;
+      transition: 0.3s;
+    }
+
+    .hero a:hover {
+      background: #ffa726;
+    }
+
+    /* About Section */
+    .about {
+      padding: 80px 10%;
+      background: #f8f8f8;
+      text-align: center;
+    }
+
+    .about h2 {
+      color: #ff9800;
+      margin-bottom: 20px;
+      font-size: 32px;
+    }
+
+    .about p {
+      max-width: 700px;
+      margin: 0 auto;
+      line-height: 1.8;
+      color: #555;
+    }
+
+    /* Popular Dishes */
+    .menu-preview {
+      padding: 80px 10%;
+      background: #fff;
+      text-align: center;
+    }
+
+    .menu-preview h2 {
+      color: #ff9800;
+      margin-bottom: 30px;
+      font-size: 32px;
+    }
+
+    .menu-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 25px;
+    }
+
+    .dish {
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+      overflow: hidden;
+      transition: 0.3s;
+    }
+
+    .dish:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+    }
+
+    .dish img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .dish h3 {
+      margin: 15px 0 5px;
+      color: #333;
+    }
+
+    .dish p {
+      color: #666;
+      font-size: 14px;
+      padding: 0 10px 15px;
+    }
+
+    /* Offers */
+    .offers {
+      background: #ff9800;
+      color: #fff;
+      text-align: center;
+      padding: 60px 10%;
+    }
+
+    .offers h2 {
+      font-size: 32px;
+      margin-bottom: 15px;
+    }
+
+    .offers p {
+      font-size: 18px;
+      margin-bottom: 20px;
+    }
+
+    .offers a {
+      background: #fff;
+      color: #ff9800;
+      padding: 10px 25px;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: 0.3s;
+    }
+
+    .offers a:hover {
+      background: #fff4e0;
+    }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      background: rgba(0,0,0,0.9);
+      color: #ccc;
+      padding: 15px;
+    }
+
+    @media (max-width: 768px) {
+      .hero h1 {
+        font-size: 40px;
+      }
+      nav {
+        flex-direction: column;
+        padding: 15px;
+      }
+      nav ul {
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+    }

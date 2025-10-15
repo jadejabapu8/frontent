@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> JADDU'S FOOD FIELD| Orders</title>
+   <link rel='stylesheet' type='text/css' media='screen' href='css/orders.css'>
+</head>
+<body>
+
+  <nav>
+    <div class="logo"> JADDU'S FOOD FIELD</div>
+    <ul>
+      <li><a href="home.html">Home</a></li>
+      <li><a href="menu2.html">Menu</a></li>
+      <li><a href="#">Orders</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="page1.html">Back</a></li>
+    </ul>
+  </nav>
+
+  <div class="container">
+    <h1>Orders Dashboard</h1>
+
+    <div class="search">
+      <input type="text" placeholder="Search by customer or order..." id="searchInput" onkeyup="searchOrders()">
+    </div>
+
+    <table id="ordersTable">
+      <thead>
+        <tr>
+          <th>Order ID</th>
+          <th>Customer Name</th>
+          <th>Phone</th>
+          <th>Items</th>
+          <th>Total (₹)</th>
+          <th>Status</th>
+          <th>Time</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>#1001</td>
+          <td>Ramesh Patel</td>
+          <td>+91 98765 43210</td>
+          <td>Paneer Butter Masala, Naan</td>
+          <td>₹290</td>
+          <td><span class="status pending">Pending</span></td>
+          <td>12:15 PM</td>
+        </tr>
+        <tr>
+          <td>#1002</td>
+          <td>Seema Joshi</td>
+          <td>+91 98765 12345</td>
+          <td>Veg Biryani, Gulab Jamun</td>
+          <td>₹320</td>
+          <td><span class="status preparing">Preparing</span></td>
+          <td>12:30 PM</td>
+        </tr>
+        <tr>
+          <td>#1003</td>
+          <td>Mahesh Chauhan</td>
+          <td>+91 98765 67890</td>
+          <td>Cheese Burst Pizza</td>
+          <td>₹260</td>
+          <td><span class="status delivered">Delivered</span></td>
+          <td>12:45 PM</td>
+        </tr>
+        <tr>
+          <td>#1004</td>
+          <td>Kavita Mehta</td>
+          <td>+91 98765 98765</td>
+          <td>Veg Spring Rolls, French Fries</td>
+          <td>₹240</td>
+          <td><span class="status pending">Pending</span></td>
+          <td>1:00 PM</td>
+        </tr>
+        <tr>
+          <td>#1005</td>
+          <td>Jignesh Solanki</td>
+          <td>+91 98765 54321</td>
+          <td>Paneer Tikka, Hakka Noodles</td>
+          <td>₹370</td>
+          <td><span class="status preparing">Preparing</span></td>
+          <td>1:15 PM</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <footer>
+     JADDU'S FOOD FIELD <br> Rajkot 
+  </footer>
+
+  <script>
+    function searchOrders() {
+      const input = document.getElementById('searchInput').value.toLowerCase();
+      const rows = document.querySelectorAll('#ordersTable tbody tr');
+      rows.forEach(row => {
+        const text = row.innerText.toLowerCase();
+        row.style.display = text.includes(input) ? '' : 'none';
+      });
+    }
+  </script>
+
+</body>
+</html>
