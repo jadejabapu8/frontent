@@ -1,0 +1,263 @@
+@font-face {
+    font-family: mj;
+    src: url(../font/VurniaDemo-Regular.otf);
+}
+body
+{
+    margin: 0;
+    padding: 0;
+}
+/* nav */
+.n2
+{
+    width: 20%;
+    height: auto;
+}
+.col-auto img 
+{
+    width: 100%;
+    height: auto;
+    margin-left: 20%;
+    margin-top: 4%;
+}
+.n1
+{
+    width: 60%;
+    height: auto;
+}
+.n1 nav
+{
+    width: 100%;
+    height: auto;
+}
+.n1 nav ul li
+{
+    display: inline-block;
+    margin-top: 5%;
+}
+.navbar-nav 
+{
+    color: white;
+    font-family: mj;
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 20px;
+    padding: 5px;
+}
+/* h1 */
+h1
+{
+   text-align: center;
+   font-family: mj;
+   margin-top: 30px;
+}
+
+/* img */
+#n1
+{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+}
+.a1
+{
+    width: 100%;
+    height: auto;
+}
+.a1 img
+{
+    width: 80%;
+    height: auto;
+    margin-left: 10%;
+    margin-top: 8%;
+    padding: 0px;
+}
+/* footer */
+
+body {
+    margin: 0;
+    background: black;
+    color: #fff;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* FOOTER BASE */
+.taj-footer {
+    padding: 60px 40px;
+    background-color: black;
+}
+
+/* ROW STRUCTURE */
+.footer-row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.footer-col {
+    flex: 1 1 250px;
+}
+
+h4, h5 {
+    color: #aaa;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.footer-col p, .footer-col li {
+    font-size: 15px;
+    margin: 6px 0;
+    color: white;
+}
+
+/* Subscribe Box */
+.subscribe input {
+    width: 100%;
+    padding: 10px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #444;
+    color: #fff;
+    margin-top: 10px;
+}
+
+.subscribe button {
+    margin-top: 15px;
+    padding: 10px 25px;
+    background: #aaa;
+    border: none;
+}
+
+/* Quick Links */
+.footer-col ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* Brand Section */
+.brand-section {
+    margin-top: 50px;
+}
+
+.brand-logos {
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.brand-logos img {
+    width: 130px;
+    padding: 10px;
+}
+
+/* Copy Line */
+.copy {
+    text-align: center;
+    margin-top: 50px;
+    color: #bbb;
+}
+/* -------------------------------------------------
+   MOBILE RESPONSIVE MEDIA QUERY
+   ------------------------------------------------- */
+
+@media (max-width: 768px) {
+
+      /* gallery row */
+    #n1 {
+        flex-direction: column;   /* vertical */
+        align-items: center;
+    }
+
+    /* single image block */
+    .a1 {
+        width: 100%;              /* full width */
+    }
+
+    .a1 img {
+        width: 100%;               /* reduce width */
+        margin-left: 0%;
+        margin: 10px auto;        /* center image */
+    }
+
+    /* heading */
+    h1 {
+        font-size: 24px;
+        margin-top: 20px;
+    }
+    .n2 {
+        width: 25%;
+        text-align: center;
+    }
+
+    .n2 img {
+        width: 40%;
+        margin: 10px auto;
+    }
+
+    .n1 {
+        width: 100%;
+        margin-top: 5px;
+    }
+
+    .n1 nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .n1 nav a {
+        font-size: 18px;
+        padding: 10px;
+    }
+        /* footer */
+
+        .footer-row {
+        flex-direction: column;
+    }
+
+    .contacts {
+        flex-direction: column;
+        display: flex;
+        gap: 25px;
+    }
+
+    .subscribe button {
+        width: 100%;
+    }
+
+    .brand-logos {
+        justify-content: center;
+    }
+
+    /* CAROUSEL FIX */
+    .carousel-caption h5 {
+        font-size: 18px !important;
+    }
+}
+
+
+/* -------------------------------------------------
+   VERY SMALL DEVICES (MAX 480PX)
+   ------------------------------------------------- */
+
+@media (max-width: 480px) {
+    
+     /* footer */
+
+        .taj-footer {
+        padding: 30px 20px;
+    }
+
+    h4 {
+        font-size: 15px;
+    }
+
+    p, li {
+        font-size: 13px;
+    }
+
+    .brand-logos img {
+        width: 90px;
+    }
+}
